@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class ToDoItems extends Component {
     constructor(props) {
         super();
+
         this.createTasks = this.createTasks.bind(this);
     }
 
@@ -19,6 +20,6 @@ class ToDoItems extends Component {
             </ul>
         );
     }
-}
+};
 
 export default ToDoItems;

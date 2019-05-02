@@ -45,7 +45,7 @@ class ToDoList extends Component {
                         <button type="submit">add</button>
                     </form>
                 </div>
-                <ToDoItems entries="{this.state..items}" />
+                <ToDoItems entries={this.state.items} />
             </div>
         );
     }
