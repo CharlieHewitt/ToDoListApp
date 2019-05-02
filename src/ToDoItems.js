@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class ToDoItems extends Component {
     constructor(props) {
+        super();
         this.createTasks = this.createTasks.bind(this);
     }
 
@@ -10,7 +11,7 @@ class ToDoItems extends Component {
     }
 
     render() {
-        var todoEntries = this.props.enties;
+        var todoEntries = this.props.entries;
         var listItems = todoEntries.map(this.createTasks);
         return (
             <ul className="theList">
