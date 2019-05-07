@@ -38,6 +38,6 @@
 }
 
 .todoListMain .theList li:hover {
-    background-color: red;
+    background-color: pink;
     cursor: pointer;
 }
